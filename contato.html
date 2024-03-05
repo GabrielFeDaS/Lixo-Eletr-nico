@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <h1>Agendamento</h1>
+
+    <form action="obrigado.html">
+
+        <p>Agende aqui o descarte do lixo eletrônico e nós íremos até você!</p>
+
+        <label for="name">Nome:</label>
+        <input type="text" class="name" >
+
+        <label for="CEP">CEP:</label>
+        <input type="numero" class="CEP" placeholder="00000-000" >
+
+        <label for="date">Data:</label>
+        <input type="date" class="date" >
+
+        <label for="horario">Horário:</label>
+        <select name="horario" id="horario" >
+            <option value="none" user-selected>Nenhum</option>
+            <option value="7:00">7:00</option>
+            <option value="9:30">9:30</option>
+            <option value="11:00">11:00</option>
+            <option value="13:30">13:30</option>
+            <option value="15:00">15:00</option>
+            <option value="17:30">17:30</option>
+            <option value="19:00">19:00</option>
+            <option value="21:30">21:30</option>
+        </select>
+
+        <textarea name="desd" id="" cols="60" rows="20" placeholder="Ex: Geladeira, Fogão, Computador..." ></textarea>
+
+        <input type="submit" class="enviar">
+    </form>
+    
+</body>
+</html>
